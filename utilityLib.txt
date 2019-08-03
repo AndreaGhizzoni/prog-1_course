@@ -1,0 +1,16 @@
+STANDARD:
+<iostream>
+
+STRINGHE;
+<cstring> --> int strcmp( const char str1, const char str2 )   srt1 < str2 -> -1   str1 = str2 -> 0   str1 > str2 -> 1 
+<cstdlib> --> int atoi( const char* str ); 
+          --> float atof( const char* str );
+          --> srand( int n ) init random number es: srand(time(0)); (rand()%100)+1 num tra 1 e 100
+
+
+STREAM:
+<fstram>  --> .open( const char* fname, ios::in | ios::out, ios::app )
+          --> .close()
+          --> bool .eof() true se fine file
+          --> bool .fail() true se non ha aperto il file
+
